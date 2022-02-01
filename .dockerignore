@@ -34,3 +34,6 @@ wp-includes
 
 docker-compose*.yml
 fix-local-permissions.sh
+
+build.env
+build.example.env

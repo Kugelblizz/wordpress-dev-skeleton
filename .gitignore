@@ -32,3 +32,4 @@ wp-includes
 /wp-trackback.php
 /xmlrpc.php
 
+build.env

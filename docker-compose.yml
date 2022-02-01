@@ -12,6 +12,7 @@ services:
       WORDPRESS_DB_USER: username
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: dbname
+      WORDPRESS_DEBUG: 1
     volumes:
       - ./wp-content:/var/www/html/wp-content # mounting our code
     depends_on:
